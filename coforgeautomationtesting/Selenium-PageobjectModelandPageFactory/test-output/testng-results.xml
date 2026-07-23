@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-18T14:19:23 IST" name="Default suite" finished-at="2026-07-18T14:19:30 IST" duration-ms="6850">
+    <groups>
+    </groups>
+    <test started-at="2026-07-18T14:19:23 IST" name="Default test" finished-at="2026-07-18T14:19:30 IST" duration-ms="6850">
+      <class name="com.EasyCal.TestCase.ExecutionLoginPage">
+        <test-method signature="Validity()[pri:0, instance:com.EasyCal.TestCase.ExecutionLoginPage@47caedad]" started-at="2026-07-18T14:19:23 IST" name="Validity" finished-at="2026-07-18T14:19:30 IST" duration-ms="6608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validity -->
+      </class> <!-- com.EasyCal.TestCase.ExecutionLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
