@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="iFramesMultipleFrames.iFramesMultipleFrames"/>
+      <class name="com.EasyCal.TestCase.ExecutionLoginPage"/>
+      <class name="NavigationCommand.BrowserNavigationTest"/>
+      <class name="webDriiver.commands.BrowserCommand"/>
+      <class name="SeleniumAlerts.Alertsselenium"/>
+      <class name="NavigationCommand.Navigation_Command"/>
+      <class name="RadioButtons.SpicejetButtons"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

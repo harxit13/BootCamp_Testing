@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-21T10:24:20 IST" name="Suite" finished-at="2026-07-21T10:27:00 IST" duration-ms="160222">
+    <groups>
+    </groups>
+    <test started-at="2026-07-21T10:24:20 IST" name="Test" finished-at="2026-07-21T10:27:00 IST" duration-ms="160222">
+      <class name="NavigationCommand.Navigation_Command">
+        <test-method signature="NavigateBackward()[pri:0, instance:NavigationCommand.Navigation_Command@4ee203eb]" started-at="2026-07-21T10:25:37 IST" name="NavigateBackward" finished-at="2026-07-21T10:25:44 IST" duration-ms="6383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBackward -->
+        <test-method signature="NavigateForward()[pri:0, instance:NavigationCommand.Navigation_Command@4ee203eb]" started-at="2026-07-21T10:25:44 IST" name="NavigateForward" finished-at="2026-07-21T10:25:58 IST" duration-ms="14139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateForward -->
+        <test-method signature="RefreshMethod()[pri:0, instance:NavigationCommand.Navigation_Command@4ee203eb]" started-at="2026-07-21T10:25:58 IST" name="RefreshMethod" finished-at="2026-07-21T10:26:10 IST" duration-ms="12216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshMethod -->
+      </class> <!-- NavigationCommand.Navigation_Command -->
+      <class name="com.EasyCal.TestCase.ExecutionLoginPage">
+        <test-method signature="Validity()[pri:0, instance:com.EasyCal.TestCase.ExecutionLoginPage@f68f0dc]" started-at="2026-07-21T10:25:01 IST" name="Validity" finished-at="2026-07-21T10:25:05 IST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validity -->
+      </class> <!-- com.EasyCal.TestCase.ExecutionLoginPage -->
+      <class name="SeleniumAlerts.Alertsselenium">
+        <test-method signature="Testpopup()[pri:0, instance:SeleniumAlerts.Alertsselenium@461ad730]" started-at="2026-07-21T10:25:26 IST" name="Testpopup" finished-at="2026-07-21T10:25:37 IST" duration-ms="11543" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [You clicked: Cancel] but found [You clicked: Ok]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [You clicked: Cancel] but found [You clicked: Ok]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SeleniumAlerts.Alertsselenium.Testpopup(Alertsselenium.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testpopup -->
+      </class> <!-- SeleniumAlerts.Alertsselenium -->
+      <class name="webDriiver.commands.BrowserCommand">
+        <test-method signature="ChromeBrowserTest()[pri:0, instance:webDriiver.commands.BrowserCommand@5c86dbc5]" started-at="2026-07-21T10:25:05 IST" name="ChromeBrowserTest" finished-at="2026-07-21T10:25:11 IST" duration-ms="5983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrowserTest -->
+        <test-method signature="FirefoxBrowserTest()[pri:1, instance:webDriiver.commands.BrowserCommand@5c86dbc5]" started-at="2026-07-21T10:25:11 IST" name="FirefoxBrowserTest" finished-at="2026-07-21T10:25:21 IST" duration-ms="9651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxBrowserTest -->
+        <test-method signature="EdgeBrowserTest()[pri:2, instance:webDriiver.commands.BrowserCommand@5c86dbc5]" started-at="2026-07-21T10:25:21 IST" name="EdgeBrowserTest" finished-at="2026-07-21T10:25:26 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeBrowserTest -->
+      </class> <!-- webDriiver.commands.BrowserCommand -->
+      <class name="NavigationCommand.BrowserNavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:NavigationCommand.BrowserNavigationTest@d2de489]" started-at="2026-07-21T10:25:05 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1784609705352" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Automation_Browser\SeleniumWebDriverAllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Automation_Browser\SeleniumWebDriverAllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationTest()[pri:0, instance:NavigationCommand.BrowserNavigationTest@d2de489]" started-at="2026-07-21T10:25:05 IST" name="navigationTest" finished-at="2026-07-21T10:25:05 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Automation_Browser\SeleniumWebDriverAllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Automation_Browser\SeleniumWebDriverAllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:NavigationCommand.BrowserNavigationTest@d2de489]" started-at="2026-07-21T10:25:05 IST" name="tearDown" finished-at="2026-07-21T10:25:05 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NavigationCommand.BrowserNavigationTest -->
+      <class name="iFramesMultipleFrames.iFramesMultipleFrames">
+        <test-method signature="Frames()[pri:0, instance:iFramesMultipleFrames.iFramesMultipleFrames@2d0399f4]" started-at="2026-07-21T10:24:20 IST" name="Frames" finished-at="2026-07-21T10:25:01 IST" duration-ms="40825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frames -->
+      </class> <!-- iFramesMultipleFrames.iFramesMultipleFrames -->
+      <class name="RadioButtons.SpicejetButtons">
+        <test-method signature="setup()[pri:0, instance:RadioButtons.SpicejetButtons@1a5a4e19]" started-at="2026-07-21T10:26:10 IST" name="setup" finished-at="2026-07-21T10:27:00 IST" duration-ms="49662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- RadioButtons.SpicejetButtons -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
