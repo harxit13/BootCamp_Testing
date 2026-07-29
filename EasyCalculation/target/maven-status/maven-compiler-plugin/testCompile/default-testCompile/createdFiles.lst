@@ -1,0 +1,8 @@
+Utility\Helper.class
+Pages\slopecalculator.class
+PageFactory\Login.class
+Utility\ConfigDataProvider.class
+Pages\LoginPage.class
+Utility\ExcelDataProvider.class
+Pages\HomePage.class
+Utility\BrowserFactory.class
