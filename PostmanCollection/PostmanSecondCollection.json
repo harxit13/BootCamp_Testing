@@ -1,0 +1,50 @@
+{
+  "info": {
+    "_postman_id": "305d418b-3ab5-4365-8541-5795f380ae1d",
+    "name": "Postman Environment variables",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50549478",
+    "_collection_link": "https://go.postman.co/collection/50549478-305d418b-3ab5-4365-8541-5795f380ae1d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "FakeAPIDemo",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\": 0,\r\n    \"title\": \"{{title}}\",\r\n    \"price\": \"{{price}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"category\": \"{{category}}\",\r\n    \"image\": \"{{image}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "title",
+      "value": ""
+    }
+  ]
+}
